@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Alura.CoisasAFazer.Core.Models
+namespace CoisasAFazer.Core.Models
 {
     /// <summary>
     /// Representa uma tarefa a ser realizada.

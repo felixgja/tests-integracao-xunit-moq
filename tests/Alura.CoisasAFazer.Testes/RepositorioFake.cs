@@ -1,8 +1,8 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Alura.CoisasAFazer.Core.Models;
-using Alura.CoisasAFazer.Infrastructure;
+using CoisasAFazer.Core.Models;
+using CoisasAFazer.Infrastructure;
 
 namespace Alura.CoisasAFazer.Testes
 {

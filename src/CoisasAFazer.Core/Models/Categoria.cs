@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Alura.CoisasAFazer.Core.Models
+namespace CoisasAFazer.Core.Models
 {
     /// <summary>
     /// Representa uma classificação dada a <see cref="Tarefa"/>.

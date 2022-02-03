@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Alura.CoisasAFazer.Core.Models;
+using CoisasAFazer.Core.Models;
 
-namespace Alura.CoisasAFazer.Infrastructure
+namespace CoisasAFazer.Infrastructure
 {
     public interface IRepositorioTarefas
     {

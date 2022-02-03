@@ -1,7 +1,7 @@
-﻿using Alura.CoisasAFazer.Core.Models;
+﻿using CoisasAFazer.Core.Models;
 using MediatR;
 
-namespace Alura.CoisasAFazer.Core.Commands
+namespace CoisasAFazer.Core.Commands
 {
     public class ObtemCategoriaPorId: IRequest<Categoria>
     {

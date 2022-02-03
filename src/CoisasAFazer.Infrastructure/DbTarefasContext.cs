@@ -1,7 +1,7 @@
-﻿using Alura.CoisasAFazer.Core.Models;
+﻿using CoisasAFazer.Core.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace Alura.CoisasAFazer.Infrastructure
+namespace CoisasAFazer.Infrastructure
 {
     public class DbTarefasContext : DbContext
     {

@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Alura.CoisasAFazer.Core.Models;
+using CoisasAFazer.Core.Models;
 
-namespace Alura.CoisasAFazer.Infrastructure
+namespace CoisasAFazer.Infrastructure
 {
     public class RepositorioTarefa : IRepositorioTarefas
     {

@@ -1,7 +1,7 @@
 ﻿// using Microsoft.AspNetCore.Mvc;
 // using Alura.CoisasAFazer.WebApp.Models;
-// using Alura.CoisasAFazer.Core.Commands;
-// using Alura.CoisasAFazer.Services.Handlers;
+// using CoisasAFazer.Core.Commands;
+// using CoisasAFazer.Services.Handlers;
 
 // namespace Alura.CoisasAFazer.WebApp.Controllers
 // {

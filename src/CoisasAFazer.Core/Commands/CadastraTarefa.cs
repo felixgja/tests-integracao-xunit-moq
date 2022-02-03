@@ -1,7 +1,7 @@
 ﻿using System;
-using Alura.CoisasAFazer.Core.Models;
+using CoisasAFazer.Core.Models;
 
-namespace Alura.CoisasAFazer.Core.Commands
+namespace CoisasAFazer.Core.Commands
 {
     /// <summary>
     /// Informações necessárias para cadastrar uma tarefa.
