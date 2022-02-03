@@ -15,6 +15,7 @@ namespace Alura.CoisasAFazer.Infrastructure
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+            // Mudança necessaria para utilizarmos o InMemory para testes, aqui verificamos se o builder já esta configurado
             if (optionsBuilder.IsConfigured) return;
             
             var conexao = "server=localhost;userid=challenge;password=challenge;database=DbTarefas";

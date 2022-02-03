@@ -16,6 +16,10 @@ namespace Alura.CoisasAFazer.Testes
         public void DadaTarefaEmAtrasoMudarStatus()
         {
             // Given
+            // Aqui estamos configurando um dublê do tipo Fake Object, estes são utilizados para simular recursos de forma rápida e leve, neste caso
+            // estamos a simular um Banco de Dados utilizando o "InMemory" que simula um banco de dados na memória, dessa forma não 
+            // temos problemas com demoras nos testes alem de que os testes não entram em conflito com o banco de produção. 
+            // Lembrando que ao utilizarmos do "InMemory" para testes é necessário que algumas mudanças sejam feitas na declaração do contexto
             
             var options = new DbContextOptionsBuilder<DbTarefasContext>()
                 .UseInMemoryDatabase("DbTarefasTeste")
@@ -27,6 +31,9 @@ namespace Alura.CoisasAFazer.Testes
             var comando = new GerenciaPrazoDasTarefas(new DateTime(2022,2,3));
 
             
+            // Apesar de declararmos as categorias, não é ela quem esta em teste e sim as tarefas, porem para que o cadastro de tarefa ocorra é necessario
+            // indicar uma categoria, e por esse motivo estamos criando, este é o duble chamado de "Dummy Object", dependendo da regra de negocio
+            // do sistema, "null" também poderá ser um Dummy Object.
 
             var compCateg = new Categoria(1, "Compras");
             var casaCateg = new Categoria(2, "Casa");

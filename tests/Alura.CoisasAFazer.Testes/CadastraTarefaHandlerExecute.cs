@@ -15,8 +15,14 @@ public class CadastraTarefaHandlerExecute
     public void DadaTarefaComInfoValidaIncluirNoBD()
     {
         // Given
+
         var comando = new CadastraTarefa("Estudar xUnit", new Categoria("Estudo"), new DateTime(2022, 2, 2));
 
+        // Aqui estamos configurando um Fake Object, estes são utilizados para simular recursos de forma rápida e leve, neste caso
+        // estamos a simular um Banco de Dados utilizando o "InMemory" que simula um banco de dados na memória, dessa forma não 
+        // temos problemas com demoras nos testes alem de que os testes não entram em conflito com o banco de produção. 
+        // Lembrando que ao utilizarmos do "InMemory" para testes é necessário que algumas mudanças sejam feitas na declaração do contexto
+        
         var options = new DbContextOptionsBuilder<DbTarefasContext>()
             .UseInMemoryDatabase("DbTarefasTeste")
             .Options;
