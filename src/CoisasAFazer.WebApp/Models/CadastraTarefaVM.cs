@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.ComponentModel.DataAnnotations;
 
-namespace Alura.CoisasAFazer.WebApp.Models
+namespace CoisasAFazer.WebApp.Models
 {
     public class CadastraTarefaVM
     {

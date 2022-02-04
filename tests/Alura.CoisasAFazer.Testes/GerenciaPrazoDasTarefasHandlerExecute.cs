@@ -23,7 +23,7 @@ namespace Alura.CoisasAFazer.Testes
             // Lembrando que ao utilizarmos do "InMemory" para testes é necessário que algumas mudanças sejam feitas na declaração do contexto
             
             var options = new DbContextOptionsBuilder<DbTarefasContext>()
-                .UseInMemoryDatabase("DbTarefasTeste")
+                .UseInMemoryDatabase("DbTesteStatusTarefas")
                 .Options;
 
             var context = new DbTarefasContext(options);

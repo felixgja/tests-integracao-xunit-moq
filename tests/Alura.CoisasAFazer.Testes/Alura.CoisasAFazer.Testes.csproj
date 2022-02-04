@@ -25,6 +25,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\src\CoisasAFazer.Core\CoisasAFazer.Core.csproj" />
     <ProjectReference Include="..\..\src\CoisasAFazer.Services\CoisasAFazer.Services.csproj" />
+    <ProjectReference Include="..\..\src\CoisasAFazer.WebApp\CoisasAFazer.WebApp.csproj" />
   </ItemGroup>
 
 </Project>
